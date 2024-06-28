@@ -1,0 +1,376 @@
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Button Component | Gulp Setting</title>
+
+    <link href="/assets/css/style.min.css" rel="stylesheet" />
+    <link href="/assets/css/component.min.css" rel="stylesheet" />
+    <link href="/assets/css/common.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="wrap">
+    <header class="header">
+	    <strong>Button Component </strong>
+	</header>
+	<!-- // header -->
+
+    <main class="container">
+        <section>
+	        <h2 data-head-type="bg">기본 유형 - large size(height: 48px)</h2>
+	        <article class="c_btn_section">
+	            <button type="button" class="c_btn"> 
+		            <span>버튼 기본(primary)</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn" disabled > 
+		            <span>버튼 기본(primary) - disabled</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn c_btn_icon"> 
+		            <span>버튼 기본(primary)</span>
+		            <i class="icon_link" aria-hidden="true"></i>
+		        </button>
+		            
+		        <button type="button" class="c_btn c_btn_icon" disabled > 
+		            <span>버튼 기본(primary) - disabled</span>
+		            <i class="icon_link" aria-hidden="true"></i>
+		        </button>
+		            
+		        <button type="button" class="c_btn c_btn_line"> 
+		            <span>버튼 기본 라인(primary line)</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn c_btn_line" disabled > 
+		            <span>버튼 기본 라인(primary line) - disabled</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn" data-btn-round="false" > 
+		            <span>버튼 기본(primary)</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn c_btn_icon btn-secondary" data-btn-round="false" > 
+		            <span>버튼 기본(secondary)</span>
+		            <i class="icon_link" aria-hidden="true"></i>
+		        </button>
+		            
+		        <button type="button" class="c_btn c_btn_line" data-btn-round="false" > 
+		            <span>버튼 기본 라인(primary line)</span>
+		        </button>
+	        </article>
+	    </section>
+	    <section>
+	        <h2 data-head-type="bg">기본 유형 - medium size(height: 42px)</h2>
+	        <article class="c_btn_section">
+	            <button type="button" class="c_btn" data-btn-type="medium" > 
+		            <span>버튼 기본(primary)</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn c_btn_icon btn-secondary" data-btn-type="medium"  data-btn-round="false" > 
+		            <span>버튼 기본(secondary)</span>
+		            <i class="icon_link" aria-hidden="true"></i>
+		        </button>
+		            
+		        <button type="button" class="c_btn btn-tertiary" data-btn-type="medium" > 
+		            <span>버튼 기본(tertiary)</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn c_btn_line" data-btn-type="medium" > 
+		            <span>버튼 기본 라인(primary line)</span>
+		        </button>
+	        </article>
+	    </section>
+	    <section>
+	        <h2 data-head-type="bg">기본 유형 - small size(height: 36px)</h2>
+	        <article class="c_btn_section">
+	            <button type="button" class="c_btn" data-btn-type="small" > 
+		            <span>버튼 기본(primary)</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn btn-secondary" data-btn-type="small" > 
+		            <span>버튼 기본(secondary)</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn btn-tertiary" data-btn-type="small" > 
+		            <span>버튼 기본(tertiary)</span>
+		        </button>
+		            
+		        <button type="button" class="c_btn c_btn_line" data-btn-type="small" > 
+		            <span>버튼 기본(primary)</span>
+		        </button>
+	        </article>
+	    </section>
+	    <section>
+	        <h2 data-head-type="bg">링크 유형(A-link type)</h2>
+	        <article class="c_btn_section">
+	            <a class="c_btn c_btn_icon" data-btn-round="false" href="#" target="_blank" aria-label="버튼 기본(primary) 새 창 열림"> 
+		            <span aria-hidden="true">버튼 기본(primary)</span>
+		            <i class="icon_link" aria-hidden="true"></i>
+		        </a>
+		            
+		        <a class="c_btn c_btn_icon" data-btn-type="medium" href="#" target="_blank" aria-label="버튼 기본(primary) 새 창 열림"> 
+		            <span aria-hidden="true">버튼 기본(primary)</span>
+		            <i class="icon_link" aria-hidden="true"></i>
+		        </a>
+		            
+		        <a class="c_btn c_btn_icon" data-btn-type="small" href="#" target="_blank" aria-label="버튼 기본(primary) 새 창 열림"> 
+		            <span aria-hidden="true">버튼 기본(primary)</span>
+		            <i class="icon_link" aria-hidden="true"></i>
+		        </a>
+		            
+		        <a class="c_btn c_btn_icon btn-secondary" data-btn-round="false" href="#" aria-label="버튼 기본(secondary) 페이지 이동"> 
+		            <span>버튼 기본(secondary)</span>
+		        </a>
+		            
+		        <a class="c_btn c_btn_icon btn-secondary" data-btn-type="medium" href="#" aria-label="버튼 기본(secondary) 페이지 이동"> 
+		            <span>버튼 기본(secondary)</span>
+		        </a>
+		            
+		        <a class="c_btn c_btn_icon btn-secondary" data-btn-type="small" href="#" aria-label="버튼 기본(secondary) 페이지 이동"> 
+		            <span>버튼 기본(secondary)</span>
+		        </a>
+		            
+		        <a class="c_btn c_btn_icon c_btn_line" data-btn-round="false" href="tel:0000-0000" aria-label="전화 0000-0000"> 
+		            <span class="tel">
+		                <i class="icon_call" aria-hidden="true"></i>
+		                0000-0000
+		            </span>
+		        </a>
+		            
+		        <a class="c_btn c_btn_icon c_btn_line" data-btn-type="medium" href="tel:0000-0000" aria-label="전화 0000-0000"> 
+		            <span class="tel">
+		                <i class="icon_call" aria-hidden="true"></i>
+		                0000-0000
+		            </span>
+		        </a>
+		            
+		        <a class="c_btn c_btn_icon c_btn_line" data-btn-type="small" href="tel:0000-0000" aria-label="전화 0000-0000"> 
+		            <span class="tel">
+		                <i class="icon_call" aria-hidden="true"></i>
+		                0000-0000
+		            </span>
+		        </a>
+		            
+		        <a class="c_btn c_btn_icon c_btn_line is-disabled" data-btn-round="false" href="#" aria-label="버튼 기본(primary) - disabled 페이지 이동"> 
+		            <span>버튼 기본(primary) - disabled</span>
+		        </a>
+	        </article>
+	    </section>
+	    <section>
+	        <h2 data-head-type="bg">사이즈</h2>
+
+	        <article class="c_btn_section">
+	            <div class="btn_cont">
+	                <button type="button" class="c_btn c_btn_line" data-btn-type="tiny"  data-btn-width="auto" >
+				        <span>아주 작은 사이즈</span>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line" data-btn-type="small"  data-btn-width="auto" >
+				        <span>작은 사이즈</span>
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_line" data-btn-type="medium"  data-btn-width="auto" >
+				        <span>중간 사이즈</span>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_line" data-btn-width="auto" >
+				        <span>기본 사이즈</span>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line btn_reverse" data-btn-type="large"  data-btn-width="auto" >
+				        <span>큰 사이즈</span>
+				        <i class="icon_plus"></i>
+				    </button>
+	            </div>
+	            <div class="btn_cont">
+	                <button type="button" class="c_btn c_btn_icon c_btn_line" data-btn-type="tiny"  data-btn-width="auto" data-btn-round="false">
+				        <span>아주 작은 사이즈</span>
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_line" data-btn-type="small"  data-btn-width="auto" data-btn-round="false">
+				        <span>작은 사이즈</span>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line btn_reverse" data-btn-type="medium"  data-btn-width="auto" data-btn-round="false">
+				        <span>중간 사이즈</span>
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_line" data-btn-width="auto" data-btn-round="false">
+				        <span>기본 사이즈</span>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_line" data-btn-type="large"  data-btn-width="auto" data-btn-round="false">
+				        <span>큰 사이즈</span>
+				    </button>
+	            </div>
+	            <div class="btn_cont">
+	                <button type="button" class="c_btn c_btn_line" data-btn-type="tiny"  data-btn-width="auto" data-btn-round="radius36">
+				        <span>아주 작은 사이즈</span>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line" data-btn-type="small"  data-btn-width="auto" data-btn-round="radius36">
+				        <span>작은 사이즈</span>
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_line" data-btn-type="medium"  data-btn-width="auto" data-btn-round="radius36">
+				        <span>중간 사이즈</span>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line btn_reverse" data-btn-width="auto" data-btn-round="radius36">
+				        <span>기본 사이즈</span>
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_line" data-btn-type="large"  data-btn-width="auto" data-btn-round="radius36">
+				        <span>큰 사이즈</span>
+				    </button>
+	            </div>
+	        </article>
+	    </section>
+	    <section>
+	        <h2 data-head-type="bg">버튼 타입</h2>
+	        <article class="c_btn_section">
+	            <strong>텍스트 버튼 타입</strong>
+
+	            <div class="btn_cont">
+	                <button type="button" class="c_btn c_btn_text c_btn_icon" data-btn-type="small"  data-btn-width="auto" data-btn-round="false">
+				            <span>텍스트 버튼 타입</span>
+				            <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_text c_btn_icon btn_reverse" data-btn-type="small"  data-btn-width="auto" data-btn-round="false">
+				            <span>텍스트 버튼 타입</span>
+				            <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_text btn_reverse" data-btn-type="small"  data-btn-width="auto" data-btn-round="false">
+				            <span>텍스트 버튼 타입</span>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_text btn_reverse" data-btn-type="small"  data-btn-width="auto" data-btn-round="false">
+				            <span>텍스트 버튼 타입</span>
+				    </button>
+	            </div>
+	            <strong>아이콘 버튼 타입1</strong>
+	            <div class="btn_cont">
+	                <button type="button" class="c_btn c_btn_icon" data-btn-type="small"  data-btn-width="auto" >
+				        <span>아이콘 버튼 타입</span>
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon btn_reverse" data-btn-type="small"  data-btn-width="auto" >
+				        <span>아이콘 버튼 타입</span>
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line" data-btn-type="small"  data-btn-width="auto" >
+				        <span>아이콘 버튼 타입</span>
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line btn_reverse" data-btn-type="small"  data-btn-width="auto" >
+				        <span>아이콘 버튼 타입</span>
+				        <i class="icon_plus"></i>
+				    </button>
+	            </div>
+	            <strong>아이콘 버튼 타입2</strong>
+	            <div class="btn_cont">
+	                <button type="button" class="c_btn c_btn_icon c_btn_line" data-btn-type="tiny"  data-btn-width="auto"  data-btn-round="radius50" aria-label="추가하기">
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line" data-btn-type="small"  data-btn-width="auto"  data-btn-round="radius50" aria-label="추가하기">
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line" data-btn-type="medium"  data-btn-width="auto"  data-btn-round="radius50" aria-label="추가하기">
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line" data-btn-width="auto"  data-btn-round="radius50" aria-label="추가하기">
+				        <i class="icon_plus"></i>
+				    </button>
+				                    
+				    <button type="button" class="c_btn c_btn_icon c_btn_line" data-btn-type="large"  data-btn-width="auto"  data-btn-round="radius50" aria-label="추가하기">
+				        <i class="icon_plus"></i>
+				    </button>
+	            </div>
+	        </article>
+	    </section>
+	    <section>
+	        <h2 data-head-type="bg">가로 유형</h2>
+	        <article class="c_btn_section">
+	            <strong>4</strong>
+	            <div role="group" class="c_btn_group">
+	                <button type="button" class="c_btn"> 
+			            <span>버튼 기본(primary)</span>
+			        </button>
+			                    
+			        <button type="button" class="c_btn c_btn_line"> 
+			            <span>버튼 기본 라인(primary line)</span>
+			        </button>
+			                    
+			        <button type="button" class="c_btn"> 
+			            <span>버튼 기본(primary)</span>
+			        </button>
+			                    
+			        <button type="button" class="c_btn c_btn_icon btn-gray"> 
+			            <span>버튼 기본(primary)</span>
+			            <i class="icon_link" aria-hidden="true"></i>
+			        </button>
+	            </div>
+	            <strong>3 : 3 : 3</strong>
+	            <div role="group" class="c_btn_group">
+	                <button type="button" class="c_btn"> 
+			            <span>버튼 기본(primary)</span>
+			        </button>
+			                    
+			        <button type="button" class="c_btn c_btn_line"> 
+			            <span>버튼 기본 라인(primary line)</span>
+			        </button>
+			                    
+			        <button type="button" class="c_btn"> 
+			            <span>버튼 기본(primary)</span>
+			        </button>
+	            </div>
+	            <strong>50% 50%</strong>
+	            <div role="group" class="c_btn_group">
+	                <button type="button" class="c_btn c_btn_line"> 
+			            <span>버튼 기본 라인(primary line)</span>
+			        </button>
+			                    
+			        <button type="button" class="c_btn"> 
+			            <span>버튼 기본(primary)</span>
+			        </button>
+	            </div>
+	            <strong>40% 60%</strong>
+	            <div role="group" class="c_btn_group" data-ratio="4-6">
+	                <button type="button" class="c_btn c_btn_line"> 
+			            <span>버튼 기본 라인(primary line)</span>
+			        </button>
+			                    
+			        <button type="button" class="c_btn"> 
+			            <span>버튼 기본(primary)</span>
+			        </button>
+	            </div>
+	        </article>
+	    </section>
+    </main>
+    <!-- // content -->
+
+    <footer class="footer">
+	    <address>© 2024 kk gulp study</address>
+	</footer>
+	<!-- // footer -->
+</div>
+<!-- //wrap -->
+
+<script src="/assets/js/main.min.js"></script>
+</body>
+</html>
